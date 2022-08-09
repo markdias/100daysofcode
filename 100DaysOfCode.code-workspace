@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../venvs"
+		}
+	],
+	"settings": {
+		"todo-tree.tree.showBadges": false,
+		"todo-tree.tree.showCountsInTree": true
+	}
+}
