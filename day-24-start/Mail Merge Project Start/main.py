@@ -13,7 +13,7 @@ for name in names:
     clean_name = name.strip('\n')
     new_letter = start.replace("[name]", clean_name)
     print(new_letter)
-    with open(f"./Output/ReadyToSend/letter_for_{clean_name}.txt", mode='w') as output:
+    with open(f"./Output/ReadyToSend/letter_for_{clean_name}.txt", mode='a') as output:
         output.write(new_letter)
 
 
